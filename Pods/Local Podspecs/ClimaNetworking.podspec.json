@@ -1,0 +1,22 @@
+{
+  "name": "ClimaNetworking",
+  "version": "0.1.0",
+  "summary": "A short description of ClimaNetworking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Pedro Brandao/ClimaNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Pedro Brandao": "pcrbrandao@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Pedro Brandao/ClimaNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ClimaNetworking/Classes/**/*"
+}
