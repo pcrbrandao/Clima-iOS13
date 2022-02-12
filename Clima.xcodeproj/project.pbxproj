@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		00D32A3127B82D8400EDD617 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 00D32A3027B82D8400EDD617 /* Podfile */; };
-		00FBFFE827B83964007FCCC1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FBFFE727B83964007FCCC1 /* MainViewController.swift */; };
+		00FBFFEC27B8516C007FCCC1 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FBFFEB27B8516C007FCCC1 /* WeatherViewController.swift */; };
+		00FBFFF027B85197007FCCC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FBFFEF27B85197007FCCC1 /* Main.storyboard */; };
 		AB3EBD270185EDB5056392EB /* libPods-Clima.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4910DE707542C76E0BD214B9 /* libPods-Clima.a */; };
 		ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B0231BBFAF00365194 /* AppDelegate.swift */; };
 		ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */; };
-		ADAA27B8231BBFAF00365194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27B6231BBFAF00365194 /* Main.storyboard */; };
 		ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27B9231BBFB300365194 /* Assets.xcassets */; };
 		ADAA27BD231BBFB300365194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */; };
 		ADAA27CE231BC87F00365194 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27CD231BC87F00365194 /* README.md */; };
@@ -20,13 +20,13 @@
 
 /* Begin PBXFileReference section */
 		00D32A3027B82D8400EDD617 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		00FBFFE727B83964007FCCC1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		00FBFFEB27B8516C007FCCC1 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		00FBFFEF27B85197007FCCC1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4910DE707542C76E0BD214B9 /* libPods-Clima.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clima.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2D4AFF386B3CE04855F308 /* Pods-Clima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clima.release.xcconfig"; path = "Target Support Files/Pods-Clima/Pods-Clima.release.xcconfig"; sourceTree = "<group>"; };
 		ADAA27AD231BBFAF00365194 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAA27B0231BBFAF00365194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADAA27B7231BBFAF00365194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADAA27B9231BBFB300365194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADAA27BC231BBFB300365194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADAA27BE231BBFB300365194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00FBFFF127B853B7007FCCC1 /* initializers */ = {
+			isa = PBXGroup;
+			children = (
+				ADAA27B0231BBFAF00365194 /* AppDelegate.swift */,
+				ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */,
+			);
+			path = initializers;
+			sourceTree = "<group>";
+		};
 		8A45323A5F245AD60909E6E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +86,11 @@
 		ADAA27AF231BBFAF00365194 /* Clima */ = {
 			isa = PBXGroup;
 			children = (
-				ADAA27B0231BBFAF00365194 /* AppDelegate.swift */,
-				ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */,
-				ADAA27B6231BBFAF00365194 /* Main.storyboard */,
-				00FBFFE727B83964007FCCC1 /* MainViewController.swift */,
-				ADAA27B9231BBFB300365194 /* Assets.xcassets */,
+				00FBFFF127B853B7007FCCC1 /* initializers */,
 				ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */,
+				00FBFFEF27B85197007FCCC1 /* Main.storyboard */,
+				00FBFFEB27B8516C007FCCC1 /* WeatherViewController.swift */,
+				ADAA27B9231BBFB300365194 /* Assets.xcassets */,
 				ADAA27BE231BBFB300365194 /* Info.plist */,
 			);
 			path = Clima;
@@ -159,9 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADAA27CE231BC87F00365194 /* README.md in Resources */,
+				00FBFFF027B85197007FCCC1 /* Main.storyboard in Resources */,
 				ADAA27BD231BBFB300365194 /* LaunchScreen.storyboard in Resources */,
 				ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */,
-				ADAA27B8231BBFAF00365194 /* Main.storyboard in Resources */,
 				00D32A3127B82D8400EDD617 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00FBFFE827B83964007FCCC1 /* MainViewController.swift in Sources */,
+				00FBFFEC27B8516C007FCCC1 /* WeatherViewController.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
 			);
@@ -222,14 +230,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ADAA27B6231BBFAF00365194 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADAA27B7231BBFAF00365194 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

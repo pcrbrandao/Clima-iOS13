@@ -97,21 +97,9 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../../ClimaControllers/ClimaControllers/Assets/dark_background.pdf"
-  install_resource "${PODS_ROOT}/../../ClimaControllers/ClimaControllers/Assets/light_background.pdf"
-  install_resource "${PODS_ROOT}/../../ClimaControllers/ClimaControllers/Assets/Assets.xcassets"
-  install_resource "${PODS_ROOT}/../../ClimaControllers/ClimaControllers/Resources/Base.lproj/ClimaMain.storyboard"
-  install_resource "${PODS_ROOT}/../../ClimaControllers/ClimaControllers/Resources/Base.lproj"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ClimaControllers/bundle.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ClimaViews/ClimaViews.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../../ClimaControllers/ClimaControllers/Assets/dark_background.pdf"
-  install_resource "${PODS_ROOT}/../../ClimaControllers/ClimaControllers/Assets/light_background.pdf"
-  install_resource "${PODS_ROOT}/../../ClimaControllers/ClimaControllers/Assets/Assets.xcassets"
-  install_resource "${PODS_ROOT}/../../ClimaControllers/ClimaControllers/Resources/Base.lproj/ClimaMain.storyboard"
-  install_resource "${PODS_ROOT}/../../ClimaControllers/ClimaControllers/Resources/Base.lproj"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ClimaControllers/bundle.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ClimaViews/ClimaViews.bundle"
 fi
 
