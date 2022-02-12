@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of ClimaViews.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Pedro Brandao/ClimaViews",
+  "homepage": "https://github.com/pcrbrandao/ClimaViews",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,21 @@
     "Pedro Brandao": "pcrbrandao@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Pedro Brandao/ClimaViews.git",
+    "git": "https://github.com/pcrbrandao/ClimaViews.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ClimaViews/Classes/**/*"
+  "source_files": "ClimaViews/Classes/**/*",
+  "resource_bundles": {
+    "ClimaViews": [
+      "ClimaViews/Assets/*.{png,pdf,xcassets}",
+      "ClimaViews/Resources/**/*"
+    ]
+  },
+  "resources": [
+    "ClimaViews/Assets/*.{png,pdf,xcassets}",
+    "ClimaViews/Resources/**/*"
+  ]
 }

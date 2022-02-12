@@ -21,11 +21,11 @@ EXTERNAL SOURCES:
     :path: "/Users/pcrbrandao/MyRepos/Clima/ClimaViews"
 
 SPEC CHECKSUMS:
-  ClimaControllers: bf9a721e48cfda1806599dd3e35e3f71cac46ff4
+  ClimaControllers: d4efa66347e085205f513b9e9463fd62a1c324e1
   ClimaModels: 0489cf8f7d8c07110ad03ed947b6b9e5e0339732
   ClimaNetworking: fd940618eff0cfe8736e58d27842e5bdbc0f6d8a
-  ClimaViews: ff1b7b29ff9940f73f1f03ce97f45916defb309b
+  ClimaViews: 4394467b3d33d93626da8b8bc9832f00d2bff9b2
 
-PODFILE CHECKSUM: 463b8c84c3d6bf80d245b902a08037f8e7a998c4
+PODFILE CHECKSUM: 6862c4392804ed5454f93a4e0973e066221361c5
 
 COCOAPODS: 1.11.2

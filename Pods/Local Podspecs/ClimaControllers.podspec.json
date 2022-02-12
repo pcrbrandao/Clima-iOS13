@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ClimaControllers/Classes/**/*"
+  "source_files": "ClimaControllers/Classes/**/*",
+  "resource_bundles": {
+    "bundle": [
+      "ClimaControllers/Assets/*.{png,pdf,xcassets}",
+      "ClimaControllers/Resources/**/*"
+    ]
+  },
+  "resources": [
+    "ClimaControllers/Assets/*.{png,pdf,xcassets}",
+    "ClimaControllers/Resources/**/*"
+  ]
 }
