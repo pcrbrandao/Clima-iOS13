@@ -1,0 +1,22 @@
+{
+  "name": "ClimaViews",
+  "version": "0.1.0",
+  "summary": "A short description of ClimaViews.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Pedro Brandao/ClimaViews",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Pedro Brandao": "pcrbrandao@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Pedro Brandao/ClimaViews.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ClimaViews/Classes/**/*"
+}

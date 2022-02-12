@@ -1,0 +1,6 @@
+module ClimaViews {
+  umbrella header "ClimaViews-umbrella.h"
+
+  export *
+  module * { export * }
+}
