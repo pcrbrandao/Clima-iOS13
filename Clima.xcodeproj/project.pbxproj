@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003A5A6927BB007D002114D0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 003A5A6827BB007D002114D0 /* .gitignore */; };
 		00D32A3127B82D8400EDD617 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 00D32A3027B82D8400EDD617 /* Podfile */; };
 		00FBFFEC27B8516C007FCCC1 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FBFFEB27B8516C007FCCC1 /* WeatherViewController.swift */; };
 		00FBFFF027B85197007FCCC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FBFFEF27B85197007FCCC1 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		003A5A6827BB007D002114D0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		00D32A3027B82D8400EDD617 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		00FBFFEB27B8516C007FCCC1 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		00FBFFEF27B85197007FCCC1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		ADAA27A4231BBFAF00365194 = {
 			isa = PBXGroup;
 			children = (
+				003A5A6827BB007D002114D0 /* .gitignore */,
 				00D32A3027B82D8400EDD617 /* Podfile */,
 				ADAA27CD231BC87F00365194 /* README.md */,
 				ADAA27AF231BBFAF00365194 /* Clima */,
@@ -170,6 +173,7 @@
 				00FBFFF027B85197007FCCC1 /* Main.storyboard in Resources */,
 				ADAA27BD231BBFB300365194 /* LaunchScreen.storyboard in Resources */,
 				ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */,
+				003A5A6927BB007D002114D0 /* .gitignore in Resources */,
 				00D32A3127B82D8400EDD617 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
