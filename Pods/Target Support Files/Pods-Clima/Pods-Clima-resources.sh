@@ -97,9 +97,17 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/../../ClimaViews/ClimaViews/Assets/dark_background.pdf"
+  install_resource "${PODS_ROOT}/../../ClimaViews/ClimaViews/Assets/light_background.pdf"
+  install_resource "${PODS_ROOT}/../../ClimaViews/ClimaViews/Assets/Assets.xcassets"
+  install_resource "${PODS_ROOT}/../../ClimaViews/ClimaViews/Resources/BackgroundView.xib"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ClimaViews/ClimaViews.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/../../ClimaViews/ClimaViews/Assets/dark_background.pdf"
+  install_resource "${PODS_ROOT}/../../ClimaViews/ClimaViews/Assets/light_background.pdf"
+  install_resource "${PODS_ROOT}/../../ClimaViews/ClimaViews/Assets/Assets.xcassets"
+  install_resource "${PODS_ROOT}/../../ClimaViews/ClimaViews/Resources/BackgroundView.xib"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ClimaViews/ClimaViews.bundle"
 fi
 
