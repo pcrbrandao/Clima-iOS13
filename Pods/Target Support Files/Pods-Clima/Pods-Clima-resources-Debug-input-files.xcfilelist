@@ -1,7 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-Clima/Pods-Clima-resources.sh
-${PODS_ROOT}/../../ClimaViews/ClimaViews/Assets/dark_background.pdf
-${PODS_ROOT}/../../ClimaViews/ClimaViews/Assets/light_background.pdf
-${PODS_ROOT}/../../ClimaViews/ClimaViews/Assets/ClimaAssets.xcassets
-${PODS_ROOT}/../../ClimaViews/ClimaViews/Resources/Base.lproj/ClimaMain.storyboard
-${PODS_ROOT}/../../ClimaViews/ClimaViews/Resources/Base.lproj
-${PODS_CONFIGURATION_BUILD_DIR}/ClimaViews/ClimaViews.bundle

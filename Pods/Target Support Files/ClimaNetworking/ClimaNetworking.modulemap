@@ -1,6 +1,0 @@
-module ClimaNetworking {
-  umbrella header "ClimaNetworking-umbrella.h"
-
-  export *
-  module * { export * }
-}
