@@ -1,4 +1,4 @@
-module ClimaModels {
+framework module ClimaModels {
   umbrella header "ClimaModels-umbrella.h"
 
   export *

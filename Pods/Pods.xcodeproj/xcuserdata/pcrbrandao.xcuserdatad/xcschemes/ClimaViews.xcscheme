@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1240"
+   LastUpgradeVersion = "1320"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CDCD0C617C1733A195D3E84E4B3D956A"
-               BuildableName = "libClimaViews.a"
+               BuildableName = "ClimaViews.framework"
                BlueprintName = "ClimaViews"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

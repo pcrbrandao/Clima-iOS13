@@ -10,7 +10,7 @@
 		00D32A3127B82D8400EDD617 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 00D32A3027B82D8400EDD617 /* Podfile */; };
 		00FBFFEC27B8516C007FCCC1 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FBFFEB27B8516C007FCCC1 /* WeatherViewController.swift */; };
 		00FBFFF027B85197007FCCC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FBFFEF27B85197007FCCC1 /* Main.storyboard */; };
-		7DA316ACC727E6FCAA716BD3 /* libPods-Clima.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D5165C8C328CB7FF49CE46 /* libPods-Clima.a */; };
+		AA4C77A502D9545D3DB9E191 /* Pods_Clima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E6759A819A6FAFEE8CC445 /* Pods_Clima.framework */; };
 		ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B0231BBFAF00365194 /* AppDelegate.swift */; };
 		ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */; };
 		ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27B9231BBFB300365194 /* Assets.xcassets */; };
@@ -31,7 +31,7 @@
 		ADAA27BC231BBFB300365194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADAA27BE231BBFB300365194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADAA27CD231BC87F00365194 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F7D5165C8C328CB7FF49CE46 /* libPods-Clima.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clima.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E6759A819A6FAFEE8CC445 /* Pods_Clima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DA316ACC727E6FCAA716BD3 /* libPods-Clima.a in Frameworks */,
+				AA4C77A502D9545D3DB9E191 /* Pods_Clima.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 		B486896861C7531B2FFD4FA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F7D5165C8C328CB7FF49CE46 /* libPods-Clima.a */,
+				F9E6759A819A6FAFEE8CC445 /* Pods_Clima.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,7 +116,7 @@
 				ADAA27A9231BBFAF00365194 /* Sources */,
 				ADAA27AA231BBFAF00365194 /* Frameworks */,
 				ADAA27AB231BBFAF00365194 /* Resources */,
-				B45E3A5CAC71E1C4BA8A717C /* [CP] Copy Pods Resources */,
+				744EB15212326D48B7984E0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,19 +177,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B45E3A5CAC71E1C4BA8A717C /* [CP] Copy Pods Resources */ = {
+		744EB15212326D48B7984E0C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clima/Pods-Clima-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clima/Pods-Clima-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E5EDE333E716DEC9B8335B44 /* [CP] Check Pods Manifest.lock */ = {

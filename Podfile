@@ -1,3 +1,4 @@
+use_frameworks!
 install! 'cocoapods', :disable_input_output_paths => true
 
 target 'Clima' do
