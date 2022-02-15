@@ -7,11 +7,12 @@
 //
 
 import UIKit
+import ClimaViews
 
 public class WeatherViewController: UIViewController {
 
-    @IBOutlet weak var conditionImageView: UIImageView!
-    @IBOutlet weak var temperatureLabel: UILabel!
+    @IBOutlet weak var conditionView: ConditionView!
+    @IBOutlet weak var temperatureView: TemperatureView!
     @IBOutlet weak var cityLabel: UILabel!
     
     override public func viewDidLoad() {

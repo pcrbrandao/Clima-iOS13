@@ -61,10 +61,11 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kFM-we-gDV" customClass="TemperatureView" customModule="ClimaViews">
-                                        <rect key="frame" x="176" y="180" width="198" height="119.5"/>
+                                        <rect key="frame" x="124" y="180" width="250" height="119.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="119.5" id="NRk-JA-ODX"/>
+                                            <constraint firstAttribute="width" constant="250" id="noc-Yw-cFO"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="London" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWP-r8-Jsy">
@@ -78,6 +79,9 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Tgv-vV-Mot" secondAttribute="trailing" id="Xxe-YD-sFY"/>
+                                    <constraint firstAttribute="trailing" secondItem="kFM-we-gDV" secondAttribute="trailing" id="YR2-C6-Ik5"/>
+                                    <constraint firstItem="CWP-r8-Jsy" firstAttribute="top" secondItem="kFM-we-gDV" secondAttribute="bottom" constant="10" id="ZBb-8q-gjc"/>
+                                    <constraint firstItem="kFM-we-gDV" firstAttribute="top" secondItem="7gy-of-FT6" secondAttribute="bottom" constant="10" id="gvU-gB-AVw"/>
                                     <constraint firstItem="Tgv-vV-Mot" firstAttribute="leading" secondItem="Wz9-jj-JbA" secondAttribute="leading" id="zMA-9O-gQ7"/>
                                 </constraints>
                             </stackView>
@@ -97,6 +101,8 @@
                     </view>
                     <connections>
                         <outlet property="cityLabel" destination="CWP-r8-Jsy" id="wCK-yN-rbE"/>
+                        <outlet property="conditionView" destination="7gy-of-FT6" id="U3e-8j-yvh"/>
+                        <outlet property="temperatureView" destination="kFM-we-gDV" id="5dN-aw-FS6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
