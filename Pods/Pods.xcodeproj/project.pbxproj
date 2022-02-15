@@ -19,127 +19,132 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		04C6A88707EA78630AF1B6DD902CB369 /* ConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73ABA4D5090BFBF543BEFE2C0AE087DD /* ConditionView.swift */; };
+		08EE0677B421990B1E1F37E68526C1E2 /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CF42AD76F8079D591E9CDD0B3494C905 /* light_background.pdf */; };
+		0B4F0B93F7E8D3C1D5CF65FD941424BA /* BackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D33E12BF028026CFD242BC1B9B1D7 /* BackgroundView.xib */; };
 		1815683373A596F9417B3E5D7E2E981C /* Pods-Clima-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 263F4D2FD3A28CD1DD99390B6524E9A1 /* Pods-Clima-dummy.m */; };
-		1934F133AF17002047D1D2F414DE43BA /* LocationButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D73A9EFD673F3AB225075F8AE490AF /* LocationButton.xib */; };
-		1FC85B003A92C5C38A2D8D2B0C44A1D4 /* LocationButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D73A9EFD673F3AB225075F8AE490AF /* LocationButton.xib */; };
+		1B8D71902E5860D3E087B33D42A41DE6 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8949EC4D9349F5AACF4A568EB8D471 /* BackgroundView.swift */; };
+		22B43EDFD74702A0AAD77E1BEF140673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039474566C74EC437059F4188C3836DE /* Assets.xcassets */; };
+		24F5F412C503E44A0B8A63460209EAC3 /* LocationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B37C6B7011116618B02D01B42D8BF1 /* LocationButton.swift */; };
 		25B8B6EBF1692409857994C58104B236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		36203E69F4FAD6345A907246560097EF /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B74089B344057116D55B9622A13A940 /* dark_background.pdf */; };
-		3A9AB6545EDDA1EACD8EF2517EB943A0 /* ClimaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEED696542925CBA63754375FADC3CD /* ClimaModel.swift */; };
-		3CEBD1C95F20F757C2F84819407E7201 /* LocationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289F565279C3D0699A9ED6E89D225C7 /* LocationButton.swift */; };
-		3EA08128022BA0AB0CD433A315D00FB2 /* ClimaViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BCCEC8CBB49DD26BC3CAE1027567D8 /* ClimaViews-dummy.m */; };
-		5DE1C8DEC8783040E0E2E4720B646DBB /* BackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20DA089D8FB7B5A04D072AA9D0F78C3C /* BackgroundView.xib */; };
-		6CF82C4197429A7FA227980FC5DB2706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6F8B2CA29A3BC10E1037259328639F11 /* ClimaViews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C03077BC71938F6D65229121DBE7E7F /* ClimaViews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FEBB987464AD3849C625951EDBFB8E8 /* ClimaViews-ClimaViews in Resources */ = {isa = PBXBuildFile; fileRef = 0BB05DC0FA3D435A1B7219567A25BDF5 /* ClimaViews-ClimaViews */; };
-		713B50F3C0A9BFF4FF8BE925BA13BD69 /* ConditionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A0462EC31E0C56510FEC5237C46099F /* ConditionView.xib */; };
-		7AEACB87FAD67FF0822A4EE49EA7318F /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4392F9F2F48F1E3B4B20D55DAE319E64 /* light_background.pdf */; };
-		7BE7E8827F92AB4C13212B0A17E61B6D /* ClimaModels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64772C499041309CA29D89097F2DFDF0 /* ClimaModels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8167F8D506EA3FFD2793170722A9C94A /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B74089B344057116D55B9622A13A940 /* dark_background.pdf */; };
-		8EC4E6DA36C689C4A349D3F9A8388198 /* NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC659C90695BA201F7AEE070F611BB8F /* NibLoader.swift */; };
+		2D969BB5F6DCA9A5561110A380A610D4 /* ClimaViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6CA191A064C28A2F3518764AC6151D /* ClimaViews-dummy.m */; };
+		2F4B342A22AE788FE9FB454349A0915B /* NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFCA0E0CB4E454BF5E2022DEF83D4F0 /* NibLoader.swift */; };
+		356E804FD6A0632AE0AA5AC297C039DC /* LocationButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19F5474B788329B7CCAB1CB1D2463681 /* LocationButton.xib */; };
+		3A9AB6545EDDA1EACD8EF2517EB943A0 /* ClimaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D2A6B82E52CFA3C6A280FC6A79125 /* ClimaModel.swift */; };
+		4AF0883CBBF48C9F03A63C5D211FCF94 /* BackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D33E12BF028026CFD242BC1B9B1D7 /* BackgroundView.xib */; };
+		4B1DF05869043070D7D8AE7F5CEBFC59 /* TemperatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3DFCEE92BD253967BBE59ECE0E89E9 /* TemperatureView.xib */; };
+		629AC1D4DC0CCA38859F47A484514F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		69EDA0ACAE840D91FB6E9A3B183BD303 /* ConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E2BB2586B34394C990E90739BC5D4 /* ConditionView.swift */; };
+		78FF0524E2913B05083AC6C1DD62B6A9 /* ConditionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 152EC4F957E7B75FEF1CAEAAF243ADEF /* ConditionView.xib */; };
+		7ADBA77633A1B2EA1784F2AAF9A2CB48 /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB7728568D925FDA51A77B8A4A3915FB /* dark_background.pdf */; };
+		7BE7E8827F92AB4C13212B0A17E61B6D /* ClimaModels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E94853C4FE25A6877E3128BA285DABD /* ClimaModels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4C9352123FFE1AF0D064B84008DAE7 /* ClimaViews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F13B20585B97C85D3000DE47856FAE /* ClimaViews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811A213DC404D66132C4D48604D99BF6 /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB7728568D925FDA51A77B8A4A3915FB /* dark_background.pdf */; };
 		94B267AF33751194CCDBE9A023795086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		96AF07EFF3BD3CDD04337582A0FC8D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F72AC57B697ED42D61F8D4B4063AB6B /* Assets.xcassets */; };
-		9728B8FE5FC973198C0295332E80BA1C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572A0F73C882D9D87DE55091233C049B /* BackgroundView.swift */; };
-		D51642B9902AF8C927C4FFFAE59B53AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F72AC57B697ED42D61F8D4B4063AB6B /* Assets.xcassets */; };
-		E5FE3D5B5F303D4E9373BEBEA55C36FC /* ConditionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A0462EC31E0C56510FEC5237C46099F /* ConditionView.xib */; };
-		EC49A9D469AC61927A145A224F370A4C /* ClimaModels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C36B128C561B45AD1D0A62285196934B /* ClimaModels-dummy.m */; };
+		BB08E1ABC1910619941E824B77FE52CC /* TemperatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3DFCEE92BD253967BBE59ECE0E89E9 /* TemperatureView.xib */; };
+		BCBA378FE58286E289E631C45BF5FE9D /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CF42AD76F8079D591E9CDD0B3494C905 /* light_background.pdf */; };
+		BF703E4F9F95C0A846FB26AF3127774B /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832B993EC6B249E90E69E2D87102EE7 /* TemperatureView.swift */; };
+		D66BDCBEB118C5CD25FC92E51B700E49 /* ConditionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 152EC4F957E7B75FEF1CAEAAF243ADEF /* ConditionView.xib */; };
+		EB531F648F270601A9DA682E799B5246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039474566C74EC437059F4188C3836DE /* Assets.xcassets */; };
+		EB6DA57165742679056DE9F5ED2B0806 /* ClimaViews-ClimaViews in Resources */ = {isa = PBXBuildFile; fileRef = 0BB05DC0FA3D435A1B7219567A25BDF5 /* ClimaViews-ClimaViews */; };
+		EC49A9D469AC61927A145A224F370A4C /* ClimaModels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB695FAF66BF8E29831AAF4B4F892974 /* ClimaModels-dummy.m */; };
+		F02D8A267EC1EAD382F9D07DCEB17ED4 /* LocationButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19F5474B788329B7CCAB1CB1D2463681 /* LocationButton.xib */; };
 		F90BBEB56329C6D55A2FC974B80705A4 /* Pods-Clima-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2B62422876552AC0CE8C1CFD814F20 /* Pods-Clima-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC8DB1747EA60C5A2A37AC884D4BB2F6 /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4392F9F2F48F1E3B4B20D55DAE319E64 /* light_background.pdf */; };
-		FCCDD23D48DAE63E79223DE2589EBA6E /* BackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20DA089D8FB7B5A04D072AA9D0F78C3C /* BackgroundView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		97F8307E590A154D86A636743556A2BA /* PBXContainerItemProxy */ = {
+		06B7FE36424BD19797E68F9D0270EF96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 53F5228348533E47C7EA82B2D4EB749A;
 			remoteInfo = ClimaNetworking;
 		};
-		A98D8024DF99A74E015D7F8517972741 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E779CA32827D17E2F2B9E4CADB2074D5;
-			remoteInfo = ClimaModels;
-		};
-		D9C3779DD4194687F98FEB04014A2D68 /* PBXContainerItemProxy */ = {
+		1167B0DE370A52A22AC4DCC79343A401 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CDCD0C617C1733A195D3E84E4B3D956A;
 			remoteInfo = ClimaViews;
 		};
-		E40A08BC9B3B174C1E4551B6C656FD5A /* PBXContainerItemProxy */ = {
+		5449493A7DDA51614BF88E9FF2D33FD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 127A755F07FAD22341ED3BF264DFCF23;
 			remoteInfo = "ClimaViews-ClimaViews";
 		};
+		AD64179530FA2B206318D2DD8C858F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E779CA32827D17E2F2B9E4CADB2074D5;
+			remoteInfo = ClimaModels;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00D097652516C3B4BD5C2B16ADB7D2FC /* ClimaModels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClimaModels.debug.xcconfig; sourceTree = "<group>"; };
+		039474566C74EC437059F4188C3836DE /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		039529E6803A6324ECD712AB275B4EF9 /* ClimaModels.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ClimaModels.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		09936D62822F8ECBAE8453B13F5A66D2 /* ClimaModels-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClimaModels-prefix.pch"; sourceTree = "<group>"; };
 		0BB05DC0FA3D435A1B7219567A25BDF5 /* ClimaViews-ClimaViews */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ClimaViews-ClimaViews"; path = ClimaViews.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		118C53673BEC7A7114478A2369A35ABB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1B74089B344057116D55B9622A13A940 /* dark_background.pdf */ = {isa = PBXFileReference; includeInIndex = 1; path = dark_background.pdf; sourceTree = "<group>"; };
+		152EC4F957E7B75FEF1CAEAAF243ADEF /* ConditionView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ConditionView.xib; sourceTree = "<group>"; };
+		1832B993EC6B249E90E69E2D87102EE7 /* TemperatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TemperatureView.swift; path = ClimaViews/Classes/TemperatureView.swift; sourceTree = "<group>"; };
+		19F5474B788329B7CCAB1CB1D2463681 /* LocationButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LocationButton.xib; sourceTree = "<group>"; };
 		1C647B406FBBFCB96BD6366EA7AF7CB8 /* Pods-Clima */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Clima"; path = Pods_Clima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20DA089D8FB7B5A04D072AA9D0F78C3C /* BackgroundView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = BackgroundView.xib; sourceTree = "<group>"; };
-		21967485B31EB4C8B29135489A548D54 /* ClimaViews.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ClimaViews.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		263F4D2FD3A28CD1DD99390B6524E9A1 /* Pods-Clima-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Clima-dummy.m"; sourceTree = "<group>"; };
-		2ADC77EBE4E01E33536860CA5FB3E2DE /* ClimaModels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ClimaModels.modulemap; sourceTree = "<group>"; };
-		2B2EC74147CE2900B980C5CD6FC75606 /* ClimaModels-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClimaModels-prefix.pch"; sourceTree = "<group>"; };
-		2F72AC57B697ED42D61F8D4B4063AB6B /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2653A0544E709E5C1C2D09444F7D3479 /* ClimaModels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClimaModels.release.xcconfig; sourceTree = "<group>"; };
+		2D5D33E12BF028026CFD242BC1B9B1D7 /* BackgroundView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = BackgroundView.xib; sourceTree = "<group>"; };
 		2FC9249640A181F5AA60AEF442286930 /* Pods-Clima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Clima.release.xcconfig"; sourceTree = "<group>"; };
+		32FD31CF8C0A63B0CAFA0E5BD8FD448F /* ClimaViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClimaViews.debug.xcconfig; sourceTree = "<group>"; };
 		37CB6BDF53ECE418FBA9F55B9F29A7CD /* Pods-Clima-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Clima-Info.plist"; sourceTree = "<group>"; };
-		3BD1B9C139AF2C7C0D9921D30B53FB39 /* ClimaModels.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ClimaModels.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3C03077BC71938F6D65229121DBE7E7F /* ClimaViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClimaViews-umbrella.h"; sourceTree = "<group>"; };
+		3A2D2A6B82E52CFA3C6A280FC6A79125 /* ClimaModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClimaModel.swift; path = ClimaModels/Classes/ClimaModel.swift; sourceTree = "<group>"; };
+		400E2BB2586B34394C990E90739BC5D4 /* ConditionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionView.swift; path = ClimaViews/Classes/ConditionView.swift; sourceTree = "<group>"; };
 		42D6FA605D701D1421886D9F672A37D3 /* Pods-Clima-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Clima-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4392F9F2F48F1E3B4B20D55DAE319E64 /* light_background.pdf */ = {isa = PBXFileReference; includeInIndex = 1; path = light_background.pdf; sourceTree = "<group>"; };
-		43A6FC7E034EC40242DA8D519B651CE7 /* ClimaModels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClimaModels.debug.xcconfig; sourceTree = "<group>"; };
-		46A97D155BF3460DC56324523995B138 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		47B07E66E5CAB3014CEA5828E710AD91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4939322BA46B02DF34D2B7DF59F44447 /* ClimaNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClimaNetworking.debug.xcconfig; sourceTree = "<group>"; };
-		4CEED696542925CBA63754375FADC3CD /* ClimaModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClimaModel.swift; path = ClimaModels/Classes/ClimaModel.swift; sourceTree = "<group>"; };
-		514A02FBE57D73B6933340F977595249 /* ClimaViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClimaViews-prefix.pch"; sourceTree = "<group>"; };
-		572A0F73C882D9D87DE55091233C049B /* BackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundView.swift; path = ClimaViews/Classes/BackgroundView.swift; sourceTree = "<group>"; };
-		5A0462EC31E0C56510FEC5237C46099F /* ConditionView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ConditionView.xib; sourceTree = "<group>"; };
+		48BE031A54D1DD80C96B5C90928550B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4E94853C4FE25A6877E3128BA285DABD /* ClimaModels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClimaModels-umbrella.h"; sourceTree = "<group>"; };
+		505E43B7319114B1BDB59E46A227C3DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5B987EBE78AC52DBF55A2E9370EFB833 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		60D732FEA6311EB0F2AFC5682881576E /* ClimaViews */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ClimaViews; path = ClimaViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63BCCEC8CBB49DD26BC3CAE1027567D8 /* ClimaViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClimaViews-dummy.m"; sourceTree = "<group>"; };
-		64772C499041309CA29D89097F2DFDF0 /* ClimaModels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClimaModels-umbrella.h"; sourceTree = "<group>"; };
-		67508CA3FCE6D0F76C9C5F3782BE4AC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		68B567B8791389DB1C564884AEA10B45 /* ClimaModels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClimaModels.release.xcconfig; sourceTree = "<group>"; };
-		70DA4A6D2743DCC27B4B8037AC73BC5E /* ClimaViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ClimaViews.modulemap; sourceTree = "<group>"; };
+		61FC88B6BDF0540FC95AA1E9915DFCAF /* ClimaViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ClimaViews.modulemap; sourceTree = "<group>"; };
+		6D30CB8F9E8F7D2C4AE821076A2AC7D2 /* ClimaViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClimaViews-prefix.pch"; sourceTree = "<group>"; };
+		6F8949EC4D9349F5AACF4A568EB8D471 /* BackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundView.swift; path = ClimaViews/Classes/BackgroundView.swift; sourceTree = "<group>"; };
+		70EE08BE25B883977A2E8F02349BFA18 /* ClimaViews.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ClimaViews.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73ABA4D5090BFBF543BEFE2C0AE087DD /* ConditionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionView.swift; path = ClimaViews/Classes/ConditionView.swift; sourceTree = "<group>"; };
-		73D912EBF0E4B11B39C1949C7E8A0BC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		75F275B6A55BFD3824D8D9DD3DC7E872 /* ClimaNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ClimaNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		76CA2B4E9493876A7089DF28C7C00AD2 /* ClimaModels-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ClimaModels-Info.plist"; sourceTree = "<group>"; };
 		899E3CC2554EC07A46720656F25274D2 /* Pods-Clima-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Clima-acknowledgements.plist"; sourceTree = "<group>"; };
-		98DA42A5CD65F143766C2ACBF9B3DB31 /* ClimaNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ClimaNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B8198315296C1485603DF50C4FB3B80 /* ClimaNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClimaNetworking.release.xcconfig; sourceTree = "<group>"; };
+		8BFCA0E0CB4E454BF5E2022DEF83D4F0 /* NibLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLoader.swift; path = ClimaViews/Classes/NibLoader.swift; sourceTree = "<group>"; };
+		905F3164963C58B281403A248DA35E91 /* ClimaViews-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ClimaViews-Info.plist"; sourceTree = "<group>"; };
+		913AE195EBEBBCB77BDD864FCDEBEDC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9420CC30E0C5F74FB030013DDD1FF862 /* ClimaNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClimaNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		964A03E89784F6959CB161DFAC46C0CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E12A7F1B09D62FED6E47CBC2D7D46D4 /* Pods-Clima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Clima.debug.xcconfig"; sourceTree = "<group>"; };
-		A092FFEDCB68B7610161C1049568FB49 /* ClimaViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClimaViews.debug.xcconfig; sourceTree = "<group>"; };
-		B289F565279C3D0699A9ED6E89D225C7 /* LocationButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationButton.swift; path = ClimaViews/Classes/LocationButton.swift; sourceTree = "<group>"; };
-		C36B128C561B45AD1D0A62285196934B /* ClimaModels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClimaModels-dummy.m"; sourceTree = "<group>"; };
-		C5986E93B073C6CEA8A298220AF72C45 /* ClimaViews-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ClimaViews-Info.plist"; sourceTree = "<group>"; };
-		CB6FC0C528A0CC983A79EB156616C59C /* ClimaViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClimaViews.release.xcconfig; sourceTree = "<group>"; };
-		CC659C90695BA201F7AEE070F611BB8F /* NibLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLoader.swift; path = ClimaViews/Classes/NibLoader.swift; sourceTree = "<group>"; };
+		A2A50CCEC989C87A0034A4AE85C0C932 /* ClimaModels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ClimaModels.modulemap; sourceTree = "<group>"; };
+		A3B37C6B7011116618B02D01B42D8BF1 /* LocationButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationButton.swift; path = ClimaViews/Classes/LocationButton.swift; sourceTree = "<group>"; };
+		A4F13B20585B97C85D3000DE47856FAE /* ClimaViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClimaViews-umbrella.h"; sourceTree = "<group>"; };
+		AB7728568D925FDA51A77B8A4A3915FB /* dark_background.pdf */ = {isa = PBXFileReference; includeInIndex = 1; path = dark_background.pdf; sourceTree = "<group>"; };
+		B12347C6AF26ECB10F81C9B693AB2D0C /* ClimaNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClimaNetworking.release.xcconfig; sourceTree = "<group>"; };
+		BC6CA191A064C28A2F3518764AC6151D /* ClimaViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClimaViews-dummy.m"; sourceTree = "<group>"; };
+		CB695FAF66BF8E29831AAF4B4F892974 /* ClimaModels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClimaModels-dummy.m"; sourceTree = "<group>"; };
+		CF42AD76F8079D591E9CDD0B3494C905 /* light_background.pdf */ = {isa = PBXFileReference; includeInIndex = 1; path = light_background.pdf; sourceTree = "<group>"; };
 		CF70EE06B45294A65D2FA12132C0D662 /* ClimaModels */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ClimaModels; path = ClimaModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE94FCF5FC49B604C3472DAECB523C5 /* Pods-Clima-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Clima-frameworks.sh"; sourceTree = "<group>"; };
-		D2528EC7B15916A395A913C3AD72DB1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D4C1B540A41A183E0754859202D7003A /* ResourceBundle-ClimaViews-ClimaViews-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ClimaViews-ClimaViews-Info.plist"; sourceTree = "<group>"; };
-		E0D73A9EFD673F3AB225075F8AE490AF /* LocationButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LocationButton.xib; sourceTree = "<group>"; };
-		E37229E88BEA9E6F20941970598D6052 /* ClimaModels-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ClimaModels-Info.plist"; sourceTree = "<group>"; };
 		ED2B62422876552AC0CE8C1CFD814F20 /* Pods-Clima-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Clima-umbrella.h"; sourceTree = "<group>"; };
+		ED3DFCEE92BD253967BBE59ECE0E89E9 /* TemperatureView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TemperatureView.xib; sourceTree = "<group>"; };
+		EEF91FD7E3ACC1806683E96EC2114AAF /* ResourceBundle-ClimaViews-ClimaViews-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ClimaViews-ClimaViews-Info.plist"; sourceTree = "<group>"; };
+		F1211343E5EF02328BFE7469AF103F87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F669F1AB480255703169B6D6F181AB44 /* ClimaViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClimaViews.release.xcconfig; sourceTree = "<group>"; };
 		F80916379EE3E82863F66D6F2C11C879 /* Pods-Clima.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Clima.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		592D1B060BE5D13ED1655B487B7551A7 /* Frameworks */ = {
+		4929D1FF28992603CCEFEC3003CDB0BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CF82C4197429A7FA227980FC5DB2706 /* Foundation.framework in Frameworks */,
+				629AC1D4DC0CCA38859F47A484514F58 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,13 +156,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9259930FEFF9679B11FE9FF7CEFC4BF3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D060A3BFC0E9622981EC9C74443F6D9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,81 +164,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D92F6B753B3D443DBACE03D72E2795C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04FE267540C2909B634DBDADA65D36B7 /* Assets */ = {
+		0D1DCCA502E746D95780197B937306C3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2F72AC57B697ED42D61F8D4B4063AB6B /* Assets.xcassets */,
-				1B74089B344057116D55B9622A13A940 /* dark_background.pdf */,
-				4392F9F2F48F1E3B4B20D55DAE319E64 /* light_background.pdf */,
+				A2A50CCEC989C87A0034A4AE85C0C932 /* ClimaModels.modulemap */,
+				CB695FAF66BF8E29831AAF4B4F892974 /* ClimaModels-dummy.m */,
+				76CA2B4E9493876A7089DF28C7C00AD2 /* ClimaModels-Info.plist */,
+				09936D62822F8ECBAE8453B13F5A66D2 /* ClimaModels-prefix.pch */,
+				4E94853C4FE25A6877E3128BA285DABD /* ClimaModels-umbrella.h */,
+				00D097652516C3B4BD5C2B16ADB7D2FC /* ClimaModels.debug.xcconfig */,
+				2653A0544E709E5C1C2D09444F7D3479 /* ClimaModels.release.xcconfig */,
 			);
-			name = Assets;
-			path = ClimaViews/Assets;
+			name = "Support Files";
+			path = "../Clima-iOS13/Pods/Target Support Files/ClimaModels";
 			sourceTree = "<group>";
 		};
-		102A33590304EC92D11198E4B53D9361 /* Pod */ = {
+		33894812D3881CDAC81F643B7875AA80 /* ClimaViews */ = {
 			isa = PBXGroup;
 			children = (
-				21967485B31EB4C8B29135489A548D54 /* ClimaViews.podspec */,
-				D2528EC7B15916A395A913C3AD72DB1B /* LICENSE */,
-				47B07E66E5CAB3014CEA5828E710AD91 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1B0C53A123C689F799D096717754DA25 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8AC5D23FD0D683C7FE39CF3A4A387CC5 /* ClimaModels */,
-				DA4221260F74A473DF67C060CD458EA1 /* ClimaNetworking */,
-				2DDB9C34632082776AECB5F27752636A /* ClimaViews */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1E00FCAF91194A06D5617292B52F1A29 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				98DA42A5CD65F143766C2ACBF9B3DB31 /* ClimaNetworking.podspec */,
-				118C53673BEC7A7114478A2369A35ABB /* LICENSE */,
-				67508CA3FCE6D0F76C9C5F3782BE4AC8 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2DDB9C34632082776AECB5F27752636A /* ClimaViews */ = {
-			isa = PBXGroup;
-			children = (
-				572A0F73C882D9D87DE55091233C049B /* BackgroundView.swift */,
-				73ABA4D5090BFBF543BEFE2C0AE087DD /* ConditionView.swift */,
-				B289F565279C3D0699A9ED6E89D225C7 /* LocationButton.swift */,
-				CC659C90695BA201F7AEE070F611BB8F /* NibLoader.swift */,
-				04FE267540C2909B634DBDADA65D36B7 /* Assets */,
-				102A33590304EC92D11198E4B53D9361 /* Pod */,
-				EAE26454026EF6366AB9D32598D2B1C8 /* Resources */,
-				372E9DE00F40B25E0D0FBA0BB41963C2 /* Support Files */,
+				6F8949EC4D9349F5AACF4A568EB8D471 /* BackgroundView.swift */,
+				400E2BB2586B34394C990E90739BC5D4 /* ConditionView.swift */,
+				A3B37C6B7011116618B02D01B42D8BF1 /* LocationButton.swift */,
+				8BFCA0E0CB4E454BF5E2022DEF83D4F0 /* NibLoader.swift */,
+				1832B993EC6B249E90E69E2D87102EE7 /* TemperatureView.swift */,
+				CE1EBB49E9763C98CD105B379AC40DB8 /* Assets */,
+				67E1DFB418F6581902354B5E45D0B2FD /* Pod */,
+				DFEE569A1C175F81DF14F4CA5B82222D /* Resources */,
+				FCBDEECEC42DB06B6B7F705E3695930E /* Support Files */,
 			);
 			name = ClimaViews;
 			path = /Users/pcrbrandao/MyRepos/Clima/ClimaViews;
 			sourceTree = "<absolute>";
-		};
-		372E9DE00F40B25E0D0FBA0BB41963C2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				70DA4A6D2743DCC27B4B8037AC73BC5E /* ClimaViews.modulemap */,
-				63BCCEC8CBB49DD26BC3CAE1027567D8 /* ClimaViews-dummy.m */,
-				C5986E93B073C6CEA8A298220AF72C45 /* ClimaViews-Info.plist */,
-				514A02FBE57D73B6933340F977595249 /* ClimaViews-prefix.pch */,
-				3C03077BC71938F6D65229121DBE7E7F /* ClimaViews-umbrella.h */,
-				A092FFEDCB68B7610161C1049568FB49 /* ClimaViews.debug.xcconfig */,
-				CB6FC0C528A0CC983A79EB156616C59C /* ClimaViews.release.xcconfig */,
-				D4C1B540A41A183E0754859202D7003A /* ResourceBundle-ClimaViews-ClimaViews-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Clima-iOS13/Pods/Target Support Files/ClimaViews";
-			sourceTree = "<group>";
 		};
 		3FD74F683A35106BBE9CBF08D45D450D /* Products */ = {
 			isa = PBXGroup;
@@ -270,12 +234,42 @@
 			path = "Target Support Files/Pods-Clima";
 			sourceTree = "<group>";
 		};
+		51E46548398327767F6A12F551A1C8A2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				039529E6803A6324ECD712AB275B4EF9 /* ClimaModels.podspec */,
+				48BE031A54D1DD80C96B5C90928550B0 /* LICENSE */,
+				505E43B7319114B1BDB59E46A227C3DB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		58BBB15FD4EB8C1C01FD9B0E6F72A858 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9420CC30E0C5F74FB030013DDD1FF862 /* ClimaNetworking.debug.xcconfig */,
+				B12347C6AF26ECB10F81C9B693AB2D0C /* ClimaNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Clima-iOS13/Pods/Target Support Files/ClimaNetworking";
+			sourceTree = "<group>";
+		};
+		67E1DFB418F6581902354B5E45D0B2FD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				70EE08BE25B883977A2E8F02349BFA18 /* ClimaViews.podspec */,
+				913AE195EBEBBCB77BDD864FCDEBEDC1 /* LICENSE */,
+				F1211343E5EF02328BFE7469AF103F87 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		817292C5EF2277C7877B94AA421BA026 /* Targets Support Files */ = {
@@ -286,61 +280,57 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8AC5D23FD0D683C7FE39CF3A4A387CC5 /* ClimaModels */ = {
+		96BDD00AB4CEC2540BAAFDC086EA2886 /* ClimaModels */ = {
 			isa = PBXGroup;
 			children = (
-				4CEED696542925CBA63754375FADC3CD /* ClimaModel.swift */,
-				BB0B7779C73A6F69F4AA2B188125707B /* Pod */,
-				B559667C7776758EBB9545065029248B /* Support Files */,
+				3A2D2A6B82E52CFA3C6A280FC6A79125 /* ClimaModel.swift */,
+				51E46548398327767F6A12F551A1C8A2 /* Pod */,
+				0D1DCCA502E746D95780197B937306C3 /* Support Files */,
 			);
 			name = ClimaModels;
 			path = /Users/pcrbrandao/MyRepos/Clima/ClimaModels;
 			sourceTree = "<absolute>";
 		};
-		B559667C7776758EBB9545065029248B /* Support Files */ = {
+		B147649D5C94FC478610785FE6E9E632 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2ADC77EBE4E01E33536860CA5FB3E2DE /* ClimaModels.modulemap */,
-				C36B128C561B45AD1D0A62285196934B /* ClimaModels-dummy.m */,
-				E37229E88BEA9E6F20941970598D6052 /* ClimaModels-Info.plist */,
-				2B2EC74147CE2900B980C5CD6FC75606 /* ClimaModels-prefix.pch */,
-				64772C499041309CA29D89097F2DFDF0 /* ClimaModels-umbrella.h */,
-				43A6FC7E034EC40242DA8D519B651CE7 /* ClimaModels.debug.xcconfig */,
-				68B567B8791389DB1C564884AEA10B45 /* ClimaModels.release.xcconfig */,
+				96BDD00AB4CEC2540BAAFDC086EA2886 /* ClimaModels */,
+				B85E83F9A3379CB9AA28FA1F5148B84D /* ClimaNetworking */,
+				33894812D3881CDAC81F643B7875AA80 /* ClimaViews */,
 			);
-			name = "Support Files";
-			path = "../Clima-iOS13/Pods/Target Support Files/ClimaModels";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BB0B7779C73A6F69F4AA2B188125707B /* Pod */ = {
+		B85E83F9A3379CB9AA28FA1F5148B84D /* ClimaNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				3BD1B9C139AF2C7C0D9921D30B53FB39 /* ClimaModels.podspec */,
-				46A97D155BF3460DC56324523995B138 /* LICENSE */,
-				73D912EBF0E4B11B39C1949C7E8A0BC0 /* README.md */,
+				F9E286C8D133948CFC1495E833418F93 /* Pod */,
+				58BBB15FD4EB8C1C01FD9B0E6F72A858 /* Support Files */,
 			);
-			name = Pod;
+			name = ClimaNetworking;
+			path = /Users/pcrbrandao/MyRepos/Clima/ClimaNetworking;
+			sourceTree = "<absolute>";
+		};
+		CE1EBB49E9763C98CD105B379AC40DB8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				039474566C74EC437059F4188C3836DE /* Assets.xcassets */,
+				AB7728568D925FDA51A77B8A4A3915FB /* dark_background.pdf */,
+				CF42AD76F8079D591E9CDD0B3494C905 /* light_background.pdf */,
+			);
+			name = Assets;
+			path = ClimaViews/Assets;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1B0C53A123C689F799D096717754DA25 /* Development Pods */,
+				B147649D5C94FC478610785FE6E9E632 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				3FD74F683A35106BBE9CBF08D45D450D /* Products */,
 				817292C5EF2277C7877B94AA421BA026 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D0EEC3FF76D324A968FA1670C067826A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4939322BA46B02DF34D2B7DF59F44447 /* ClimaNetworking.debug.xcconfig */,
-				9B8198315296C1485603DF50C4FB3B80 /* ClimaNetworking.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Clima-iOS13/Pods/Target Support Files/ClimaNetworking";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -351,25 +341,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA4221260F74A473DF67C060CD458EA1 /* ClimaNetworking */ = {
+		DFEE569A1C175F81DF14F4CA5B82222D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1E00FCAF91194A06D5617292B52F1A29 /* Pod */,
-				D0EEC3FF76D324A968FA1670C067826A /* Support Files */,
-			);
-			name = ClimaNetworking;
-			path = /Users/pcrbrandao/MyRepos/Clima/ClimaNetworking;
-			sourceTree = "<absolute>";
-		};
-		EAE26454026EF6366AB9D32598D2B1C8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				20DA089D8FB7B5A04D072AA9D0F78C3C /* BackgroundView.xib */,
-				5A0462EC31E0C56510FEC5237C46099F /* ConditionView.xib */,
-				E0D73A9EFD673F3AB225075F8AE490AF /* LocationButton.xib */,
+				2D5D33E12BF028026CFD242BC1B9B1D7 /* BackgroundView.xib */,
+				152EC4F957E7B75FEF1CAEAAF243ADEF /* ConditionView.xib */,
+				19F5474B788329B7CCAB1CB1D2463681 /* LocationButton.xib */,
+				ED3DFCEE92BD253967BBE59ECE0E89E9 /* TemperatureView.xib */,
 			);
 			name = Resources;
 			path = ClimaViews/Resources;
+			sourceTree = "<group>";
+		};
+		F9E286C8D133948CFC1495E833418F93 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				75F275B6A55BFD3824D8D9DD3DC7E872 /* ClimaNetworking.podspec */,
+				5B987EBE78AC52DBF55A2E9370EFB833 /* LICENSE */,
+				964A03E89784F6959CB161DFAC46C0CB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FCBDEECEC42DB06B6B7F705E3695930E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61FC88B6BDF0540FC95AA1E9915DFCAF /* ClimaViews.modulemap */,
+				BC6CA191A064C28A2F3518764AC6151D /* ClimaViews-dummy.m */,
+				905F3164963C58B281403A248DA35E91 /* ClimaViews-Info.plist */,
+				6D30CB8F9E8F7D2C4AE821076A2AC7D2 /* ClimaViews-prefix.pch */,
+				A4F13B20585B97C85D3000DE47856FAE /* ClimaViews-umbrella.h */,
+				32FD31CF8C0A63B0CAFA0E5BD8FD448F /* ClimaViews.debug.xcconfig */,
+				F669F1AB480255703169B6D6F181AB44 /* ClimaViews.release.xcconfig */,
+				EEF91FD7E3ACC1806683E96EC2114AAF /* ResourceBundle-ClimaViews-ClimaViews-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Clima-iOS13/Pods/Target Support Files/ClimaViews";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,6 +390,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77A8897652528B790E4FF27070307B03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4C9352123FFE1AF0D064B84008DAE7 /* ClimaViews-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEE77D04DBAF739272D15AE42D8BB446 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -391,24 +406,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B16CA632D34811F5EC1147D27F87FADE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F8B2CA29A3BC10E1037259328639F11 /* ClimaViews-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		127A755F07FAD22341ED3BF264DFCF23 /* ClimaViews-ClimaViews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A5D2DD5FD6891D65A24DA7B4888CA71 /* Build configuration list for PBXNativeTarget "ClimaViews-ClimaViews" */;
+			buildConfigurationList = 2F240614FF91917DA22F2D53C1840983 /* Build configuration list for PBXNativeTarget "ClimaViews-ClimaViews" */;
 			buildPhases = (
-				503D84186204AF04FA6E0A03B5318B4B /* Sources */,
-				9259930FEFF9679B11FE9FF7CEFC4BF3 /* Frameworks */,
-				7B242020B611B12B826B7BC2D2E13201 /* Resources */,
+				403C49AD5F7AC03F2CE59AD11B39306E /* Sources */,
+				D92F6B753B3D443DBACE03D72E2795C8 /* Frameworks */,
+				AA3D26DD65DF82F4C9B992DAC085F0F9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -431,9 +438,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				B24B9F926287BC404176C2479716E501 /* PBXTargetDependency */,
-				351B7358B19ED7BE5423A46B4143A6A1 /* PBXTargetDependency */,
-				01269797C490B8D161E153DA660B6889 /* PBXTargetDependency */,
+				043862DA86A760AEE7BB30F5DAB1262F /* PBXTargetDependency */,
+				B1F007D846C9EA192845FD019496468C /* PBXTargetDependency */,
+				FA408F775ABAB4B64400372A2B37F5E9 /* PBXTargetDependency */,
 			);
 			name = "Pods-Clima";
 			productName = Pods_Clima;
@@ -442,17 +449,17 @@
 		};
 		CDCD0C617C1733A195D3E84E4B3D956A /* ClimaViews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AA7AB55615C697A6308D96A10F4B544 /* Build configuration list for PBXNativeTarget "ClimaViews" */;
+			buildConfigurationList = 827CD964111343614345D3D06ECA64BE /* Build configuration list for PBXNativeTarget "ClimaViews" */;
 			buildPhases = (
-				B16CA632D34811F5EC1147D27F87FADE /* Headers */,
-				52151011EB96C74CCBBDFF1E05F520FD /* Sources */,
-				592D1B060BE5D13ED1655B487B7551A7 /* Frameworks */,
-				C7F1EEA99EEF6D06CB86DE8293D983FC /* Resources */,
+				77A8897652528B790E4FF27070307B03 /* Headers */,
+				C31027153C2C1187BD443B222EA51BB1 /* Sources */,
+				4929D1FF28992603CCEFEC3003CDB0BF /* Frameworks */,
+				DEE654C5AEB3AD7D195F5CAFA5547A8C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				475B361A7555973FCAF91AC7B7E3523B /* PBXTargetDependency */,
+				30646BCB005B1ACDB47221AC0F5910AA /* PBXTargetDependency */,
 			);
 			name = ClimaViews;
 			productName = ClimaViews;
@@ -509,16 +516,17 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7B242020B611B12B826B7BC2D2E13201 /* Resources */ = {
+		AA3D26DD65DF82F4C9B992DAC085F0F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96AF07EFF3BD3CDD04337582A0FC8D80 /* Assets.xcassets in Resources */,
-				FCCDD23D48DAE63E79223DE2589EBA6E /* BackgroundView.xib in Resources */,
-				E5FE3D5B5F303D4E9373BEBEA55C36FC /* ConditionView.xib in Resources */,
-				8167F8D506EA3FFD2793170722A9C94A /* dark_background.pdf in Resources */,
-				FC8DB1747EA60C5A2A37AC884D4BB2F6 /* light_background.pdf in Resources */,
-				1FC85B003A92C5C38A2D8D2B0C44A1D4 /* LocationButton.xib in Resources */,
+				EB531F648F270601A9DA682E799B5246 /* Assets.xcassets in Resources */,
+				4AF0883CBBF48C9F03A63C5D211FCF94 /* BackgroundView.xib in Resources */,
+				78FF0524E2913B05083AC6C1DD62B6A9 /* ConditionView.xib in Resources */,
+				7ADBA77633A1B2EA1784F2AAF9A2CB48 /* dark_background.pdf in Resources */,
+				08EE0677B421990B1E1F37E68526C1E2 /* light_background.pdf in Resources */,
+				F02D8A267EC1EAD382F9D07DCEB17ED4 /* LocationButton.xib in Resources */,
+				BB08E1ABC1910619941E824B77FE52CC /* TemperatureView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,39 +544,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7F1EEA99EEF6D06CB86DE8293D983FC /* Resources */ = {
+		DEE654C5AEB3AD7D195F5CAFA5547A8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D51642B9902AF8C927C4FFFAE59B53AE /* Assets.xcassets in Resources */,
-				5DE1C8DEC8783040E0E2E4720B646DBB /* BackgroundView.xib in Resources */,
-				6FEBB987464AD3849C625951EDBFB8E8 /* ClimaViews-ClimaViews in Resources */,
-				713B50F3C0A9BFF4FF8BE925BA13BD69 /* ConditionView.xib in Resources */,
-				36203E69F4FAD6345A907246560097EF /* dark_background.pdf in Resources */,
-				7AEACB87FAD67FF0822A4EE49EA7318F /* light_background.pdf in Resources */,
-				1934F133AF17002047D1D2F414DE43BA /* LocationButton.xib in Resources */,
+				22B43EDFD74702A0AAD77E1BEF140673 /* Assets.xcassets in Resources */,
+				0B4F0B93F7E8D3C1D5CF65FD941424BA /* BackgroundView.xib in Resources */,
+				EB6DA57165742679056DE9F5ED2B0806 /* ClimaViews-ClimaViews in Resources */,
+				D66BDCBEB118C5CD25FC92E51B700E49 /* ConditionView.xib in Resources */,
+				811A213DC404D66132C4D48604D99BF6 /* dark_background.pdf in Resources */,
+				BCBA378FE58286E289E631C45BF5FE9D /* light_background.pdf in Resources */,
+				356E804FD6A0632AE0AA5AC297C039DC /* LocationButton.xib in Resources */,
+				4B1DF05869043070D7D8AE7F5CEBFC59 /* TemperatureView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		503D84186204AF04FA6E0A03B5318B4B /* Sources */ = {
+		403C49AD5F7AC03F2CE59AD11B39306E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52151011EB96C74CCBBDFF1E05F520FD /* Sources */ = {
+		C31027153C2C1187BD443B222EA51BB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9728B8FE5FC973198C0295332E80BA1C /* BackgroundView.swift in Sources */,
-				3EA08128022BA0AB0CD433A315D00FB2 /* ClimaViews-dummy.m in Sources */,
-				04C6A88707EA78630AF1B6DD902CB369 /* ConditionView.swift in Sources */,
-				3CEBD1C95F20F757C2F84819407E7201 /* LocationButton.swift in Sources */,
-				8EC4E6DA36C689C4A349D3F9A8388198 /* NibLoader.swift in Sources */,
+				1B8D71902E5860D3E087B33D42A41DE6 /* BackgroundView.swift in Sources */,
+				2D969BB5F6DCA9A5561110A380A610D4 /* ClimaViews-dummy.m in Sources */,
+				69EDA0ACAE840D91FB6E9A3B183BD303 /* ConditionView.swift in Sources */,
+				24F5F412C503E44A0B8A63460209EAC3 /* LocationButton.swift in Sources */,
+				2F4B342A22AE788FE9FB454349A0915B /* NibLoader.swift in Sources */,
+				BF703E4F9F95C0A846FB26AF3127774B /* TemperatureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,48 +602,68 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01269797C490B8D161E153DA660B6889 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ClimaViews;
-			target = CDCD0C617C1733A195D3E84E4B3D956A /* ClimaViews */;
-			targetProxy = D9C3779DD4194687F98FEB04014A2D68 /* PBXContainerItemProxy */;
-		};
-		351B7358B19ED7BE5423A46B4143A6A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ClimaNetworking;
-			target = 53F5228348533E47C7EA82B2D4EB749A /* ClimaNetworking */;
-			targetProxy = 97F8307E590A154D86A636743556A2BA /* PBXContainerItemProxy */;
-		};
-		475B361A7555973FCAF91AC7B7E3523B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ClimaViews-ClimaViews";
-			target = 127A755F07FAD22341ED3BF264DFCF23 /* ClimaViews-ClimaViews */;
-			targetProxy = E40A08BC9B3B174C1E4551B6C656FD5A /* PBXContainerItemProxy */;
-		};
-		B24B9F926287BC404176C2479716E501 /* PBXTargetDependency */ = {
+		043862DA86A760AEE7BB30F5DAB1262F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ClimaModels;
 			target = E779CA32827D17E2F2B9E4CADB2074D5 /* ClimaModels */;
-			targetProxy = A98D8024DF99A74E015D7F8517972741 /* PBXContainerItemProxy */;
+			targetProxy = AD64179530FA2B206318D2DD8C858F08 /* PBXContainerItemProxy */;
+		};
+		30646BCB005B1ACDB47221AC0F5910AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ClimaViews-ClimaViews";
+			target = 127A755F07FAD22341ED3BF264DFCF23 /* ClimaViews-ClimaViews */;
+			targetProxy = 5449493A7DDA51614BF88E9FF2D33FD0 /* PBXContainerItemProxy */;
+		};
+		B1F007D846C9EA192845FD019496468C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ClimaNetworking;
+			target = 53F5228348533E47C7EA82B2D4EB749A /* ClimaNetworking */;
+			targetProxy = 06B7FE36424BD19797E68F9D0270EF96 /* PBXContainerItemProxy */;
+		};
+		FA408F775ABAB4B64400372A2B37F5E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ClimaViews;
+			target = CDCD0C617C1733A195D3E84E4B3D956A /* ClimaViews */;
+			targetProxy = 1167B0DE370A52A22AC4DCC79343A401 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1F353F8B88BC75AEC25417BDAAB79271 /* Debug */ = {
+		0089AF362F92D9641DCCC8D6145F1F1A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A092FFEDCB68B7610161C1049568FB49 /* ClimaViews.debug.xcconfig */;
+			baseConfigurationReference = F669F1AB480255703169B6D6F181AB44 /* ClimaViews.release.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ClimaViews";
-				IBSC_MODULE = ClimaViews;
-				INFOPLIST_FILE = "Target Support Files/ClimaViews/ResourceBundle-ClimaViews-ClimaViews-Info.plist";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ClimaViews/ClimaViews-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ClimaViews/ClimaViews-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ClimaViews/ClimaViews.modulemap";
+				PRODUCT_MODULE_NAME = ClimaViews;
 				PRODUCT_NAME = ClimaViews;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		207F48F07F93171F98257D4B7A9EF96A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -672,9 +702,25 @@
 			};
 			name = Debug;
 		};
+		5AB15D2184C4C00360C101AE822F3573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F669F1AB480255703169B6D6F181AB44 /* ClimaViews.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ClimaViews";
+				IBSC_MODULE = ClimaViews;
+				INFOPLIST_FILE = "Target Support Files/ClimaViews/ResourceBundle-ClimaViews-ClimaViews-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = ClimaViews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		6B8DF6A1C3C4ACB637B8DD14D673ACF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B8198315296C1485603DF50C4FB3B80 /* ClimaNetworking.release.xcconfig */;
+			baseConfigurationReference = B12347C6AF26ECB10F81C9B693AB2D0C /* ClimaNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -691,7 +737,7 @@
 		};
 		7594CD6E70E6DF46E8AEA0A06856A89C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43A6FC7E034EC40242DA8D519B651CE7 /* ClimaModels.debug.xcconfig */;
+			baseConfigurationReference = 00D097652516C3B4BD5C2B16ADB7D2FC /* ClimaModels.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -713,41 +759,6 @@
 				MODULEMAP_FILE = "Target Support Files/ClimaModels/ClimaModels.modulemap";
 				PRODUCT_MODULE_NAME = ClimaModels;
 				PRODUCT_NAME = ClimaModels;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8D9EE96309C38C952A7FCCEBB543C3FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A092FFEDCB68B7610161C1049568FB49 /* ClimaViews.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ClimaViews/ClimaViews-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ClimaViews/ClimaViews-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ClimaViews/ClimaViews.modulemap";
-				PRODUCT_MODULE_NAME = ClimaViews;
-				PRODUCT_NAME = ClimaViews;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -826,7 +837,7 @@
 		};
 		9175CED76D807A3D7628F5B0052A3EE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4939322BA46B02DF34D2B7DF59F44447 /* ClimaNetworking.debug.xcconfig */;
+			baseConfigurationReference = 9420CC30E0C5F74FB030013DDD1FF862 /* ClimaNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -904,7 +915,7 @@
 		};
 		B4154D2E7E7D7551C9E083095A96B907 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68B567B8791389DB1C564884AEA10B45 /* ClimaModels.release.xcconfig */;
+			baseConfigurationReference = 2653A0544E709E5C1C2D09444F7D3479 /* ClimaModels.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -975,9 +986,9 @@
 			};
 			name = Release;
 		};
-		B752B90ECF9223EE97FE9C73AAEC3BBA /* Release */ = {
+		B8F7E942D81BEA8852E87E15B37FA503 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB6FC0C528A0CC983A79EB156616C59C /* ClimaViews.release.xcconfig */;
+			baseConfigurationReference = 32FD31CF8C0A63B0CAFA0E5BD8FD448F /* ClimaViews.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ClimaViews";
 				IBSC_MODULE = ClimaViews;
@@ -989,11 +1000,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		E53167644025ED2EA89B8943E7047025 /* Release */ = {
+		B9A1FD6D61DB2F2925943F87B499E14E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB6FC0C528A0CC983A79EB156616C59C /* ClimaViews.release.xcconfig */;
+			baseConfigurationReference = 32FD31CF8C0A63B0CAFA0E5BD8FD448F /* ClimaViews.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1021,20 +1032,19 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AA7AB55615C697A6308D96A10F4B544 /* Build configuration list for PBXNativeTarget "ClimaViews" */ = {
+		2F240614FF91917DA22F2D53C1840983 /* Build configuration list for PBXNativeTarget "ClimaViews-ClimaViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D9EE96309C38C952A7FCCEBB543C3FE /* Debug */,
-				E53167644025ED2EA89B8943E7047025 /* Release */,
+				B8F7E942D81BEA8852E87E15B37FA503 /* Debug */,
+				5AB15D2184C4C00360C101AE822F3573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1057,11 +1067,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A5D2DD5FD6891D65A24DA7B4888CA71 /* Build configuration list for PBXNativeTarget "ClimaViews-ClimaViews" */ = {
+		827CD964111343614345D3D06ECA64BE /* Build configuration list for PBXNativeTarget "ClimaViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F353F8B88BC75AEC25417BDAAB79271 /* Debug */,
-				B752B90ECF9223EE97FE9C73AAEC3BBA /* Release */,
+				B9A1FD6D61DB2F2925943F87B499E14E /* Debug */,
+				0089AF362F92D9641DCCC8D6145F1F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
