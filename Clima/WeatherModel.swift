@@ -1,4 +1,4 @@
-public struct ClimaModel {
+public struct WeatherModel {
     public struct Request {
         public let cityName: String
         public let units: String

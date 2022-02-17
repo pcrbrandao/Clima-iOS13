@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		003A5A6927BB007D002114D0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 003A5A6827BB007D002114D0 /* .gitignore */; };
-		00C447A427BEB84C00D6846F /* ClimaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C447A227BEB84C00D6846F /* ClimaModel.swift */; };
-		00C447A527BEB84C00D6846F /* ClimaBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C447A327BEB84C00D6846F /* ClimaBrain.swift */; };
+		00C447A427BEB84C00D6846F /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C447A227BEB84C00D6846F /* WeatherModel.swift */; };
+		00C447A527BEB84C00D6846F /* WeatherBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C447A327BEB84C00D6846F /* WeatherBrain.swift */; };
 		00D32A3127B82D8400EDD617 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 00D32A3027B82D8400EDD617 /* Podfile */; };
 		00FBFFEC27B8516C007FCCC1 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FBFFEB27B8516C007FCCC1 /* WeatherViewController.swift */; };
 		00FBFFF027B85197007FCCC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FBFFEF27B85197007FCCC1 /* Main.storyboard */; };
@@ -24,8 +24,8 @@
 /* Begin PBXFileReference section */
 		00108C3B27BC3D9700F22F4A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		003A5A6827BB007D002114D0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		00C447A227BEB84C00D6846F /* ClimaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimaModel.swift; sourceTree = "<group>"; };
-		00C447A327BEB84C00D6846F /* ClimaBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimaBrain.swift; sourceTree = "<group>"; };
+		00C447A227BEB84C00D6846F /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		00C447A327BEB84C00D6846F /* WeatherBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherBrain.swift; sourceTree = "<group>"; };
 		00D32A3027B82D8400EDD617 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		00FBFFEB27B8516C007FCCC1 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		00FBFFEF27B85197007FCCC1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -98,8 +98,8 @@
 				00FBFFF127B853B7007FCCC1 /* initializers */,
 				ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */,
 				00FBFFEF27B85197007FCCC1 /* Main.storyboard */,
-				00C447A327BEB84C00D6846F /* ClimaBrain.swift */,
-				00C447A227BEB84C00D6846F /* ClimaModel.swift */,
+				00C447A327BEB84C00D6846F /* WeatherBrain.swift */,
+				00C447A227BEB84C00D6846F /* WeatherModel.swift */,
 				00FBFFEB27B8516C007FCCC1 /* WeatherViewController.swift */,
 				ADAA27B9231BBFB300365194 /* Assets.xcassets */,
 				ADAA27BE231BBFB300365194 /* Info.plist */,
@@ -235,8 +235,8 @@
 			files = (
 				00FBFFEC27B8516C007FCCC1 /* WeatherViewController.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
-				00C447A427BEB84C00D6846F /* ClimaModel.swift in Sources */,
-				00C447A527BEB84C00D6846F /* ClimaBrain.swift in Sources */,
+				00C447A427BEB84C00D6846F /* WeatherModel.swift in Sources */,
+				00C447A527BEB84C00D6846F /* WeatherBrain.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -36,5 +36,5 @@ public enum ClimaType: String {
     }
 }
 
-public struct ClimaBrain {
+public struct WeatherBrain {
 }
