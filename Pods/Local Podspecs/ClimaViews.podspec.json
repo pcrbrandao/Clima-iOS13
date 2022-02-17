@@ -28,5 +28,6 @@
   "resources": [
     "ClimaViews/Assets/*.{png,pdf,xcassets}",
     "ClimaViews/Resources/**/*"
-  ]
+  ],
+  "frameworks": "UIKit"
 }

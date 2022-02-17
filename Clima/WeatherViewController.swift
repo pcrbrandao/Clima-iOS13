@@ -17,7 +17,9 @@ public class WeatherViewController: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
-        
+        if let climaImage = UIImage(named: ClimaType.imageName(for: 500)) {
+            conditionView.setImage(climaImage)
+        }
     }
 }
 

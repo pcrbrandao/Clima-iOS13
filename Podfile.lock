@@ -1,26 +1,21 @@
 PODS:
-  - ClimaModels (0.1.0)
-  - ClimaNetworking (0.1.0)
   - ClimaViews (0.1.0)
+  - ClimaWorking (0.1.0)
 
 DEPENDENCIES:
-  - ClimaModels (from `/Users/pcrbrandao/MyRepos/Clima/ClimaModels`)
-  - ClimaNetworking (from `/Users/pcrbrandao/MyRepos/Clima/ClimaNetworking`)
-  - ClimaViews (from `/Users/pcrbrandao/MyRepos/Clima/ClimaViews`)
+  - ClimaViews (from `../ClimaViews`)
+  - ClimaWorking (from `../ClimaWorking`)
 
 EXTERNAL SOURCES:
-  ClimaModels:
-    :path: "/Users/pcrbrandao/MyRepos/Clima/ClimaModels"
-  ClimaNetworking:
-    :path: "/Users/pcrbrandao/MyRepos/Clima/ClimaNetworking"
   ClimaViews:
-    :path: "/Users/pcrbrandao/MyRepos/Clima/ClimaViews"
+    :path: "../ClimaViews"
+  ClimaWorking:
+    :path: "../ClimaWorking"
 
 SPEC CHECKSUMS:
-  ClimaModels: 0489cf8f7d8c07110ad03ed947b6b9e5e0339732
-  ClimaNetworking: fd940618eff0cfe8736e58d27842e5bdbc0f6d8a
-  ClimaViews: a3109ea24a0bafd5062ae576d2aba591e7dc2fe9
+  ClimaViews: e3dc831c0c309a78417b46dcff0bc22f92aead32
+  ClimaWorking: 917863242ba1d9b7aa95b05fdea86dd34200c297
 
-PODFILE CHECKSUM: 449c3bc97ce6081b4261b4ee59067bb41514ca7a
+PODFILE CHECKSUM: 9a084d24be4d5be8e3badc36c1b10830bedba526
 
 COCOAPODS: 1.11.2
