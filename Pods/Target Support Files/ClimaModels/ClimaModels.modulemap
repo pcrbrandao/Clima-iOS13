@@ -1,6 +1,0 @@
-framework module ClimaModels {
-  umbrella header "ClimaModels-umbrella.h"
-
-  export *
-  module * { export * }
-}
