@@ -72,6 +72,14 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		002645DF27BEBB780048E536 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ADAA27B9231BBFB300365194 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		00FBFFF127B853B7007FCCC1 /* initializers */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +125,7 @@
 				00FBFFF127B853B7007FCCC1 /* initializers */,
 				002645DD27BEBAB30048E536 /* Storyboards */,
 				002645DE27BEBB040048E536 /* Classes */,
-				ADAA27B9231BBFB300365194 /* Assets.xcassets */,
+				002645DF27BEBB780048E536 /* Assets */,
 				ADAA27BE231BBFB300365194 /* Info.plist */,
 			);
 			path = Clima;
