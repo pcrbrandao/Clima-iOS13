@@ -53,6 +53,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002645DD27BEBAB30048E536 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */,
+				00FBFFEF27B85197007FCCC1 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		002645DE27BEBB040048E536 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00C447A327BEB84C00D6846F /* WeatherBrain.swift */,
+				00C447A227BEB84C00D6846F /* WeatherModel.swift */,
+				00FBFFEB27B8516C007FCCC1 /* WeatherViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		00FBFFF127B853B7007FCCC1 /* initializers */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				00FBFFF127B853B7007FCCC1 /* initializers */,
-				ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */,
-				00FBFFEF27B85197007FCCC1 /* Main.storyboard */,
-				00C447A327BEB84C00D6846F /* WeatherBrain.swift */,
-				00C447A227BEB84C00D6846F /* WeatherModel.swift */,
-				00FBFFEB27B8516C007FCCC1 /* WeatherViewController.swift */,
+				002645DD27BEBAB30048E536 /* Storyboards */,
+				002645DE27BEBB040048E536 /* Classes */,
 				ADAA27B9231BBFB300365194 /* Assets.xcassets */,
 				ADAA27BE231BBFB300365194 /* Info.plist */,
 			);

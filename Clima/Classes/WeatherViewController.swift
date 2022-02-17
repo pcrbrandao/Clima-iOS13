@@ -14,6 +14,7 @@ public class WeatherViewController: UIViewController {
     @IBOutlet weak var conditionView: ConditionView!
     @IBOutlet weak var temperatureView: TemperatureView!
     @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var searchField: UITextField!
     
     override public func viewDidLoad() {
         super.viewDidLoad()

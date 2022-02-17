@@ -102,6 +102,7 @@
                     <connections>
                         <outlet property="cityLabel" destination="CWP-r8-Jsy" id="wCK-yN-rbE"/>
                         <outlet property="conditionView" destination="7gy-of-FT6" id="U3e-8j-yvh"/>
+                        <outlet property="searchField" destination="2eh-wL-W34" id="nmO-Qi-0nE"/>
                         <outlet property="temperatureView" destination="kFM-we-gDV" id="5dN-aw-FS6"/>
                     </connections>
                 </viewController>
