@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum ClimaType: String {
+enum ClimaType: String {
     case cloudBolt = "cloud.bolt"
     case cloudDrizzle = "cloud.drizzle"
     case cloudRain = "cloud.rain"
@@ -16,7 +16,7 @@ public enum ClimaType: String {
     case sunMax = "sun.max"
     case none = "cloud"
     
-    static public func imageName(for conditionID: Int) -> String {
+    static func imageName(for conditionID: Int) -> String {
         switch conditionID {
         case 200...232, 801...804:
             return ClimaType.cloudBolt.rawValue
@@ -36,5 +36,5 @@ public enum ClimaType: String {
     }
 }
 
-public struct WeatherBrain {
+struct WeatherBrain {
 }

@@ -39,7 +39,7 @@
                                                 <rect key="frame" x="50" y="0.0" width="274" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemFillColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="go"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Cr-pd-dUW">
                                                 <rect key="frame" x="334" y="0.5" width="40" height="38.5"/>
@@ -49,6 +49,9 @@
                                                 </constraints>
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <state key="normal" backgroundImage="magnifyingglass" catalog="system"/>
+                                                <connections>
+                                                    <action selector="searchButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cdU-2C-cC9"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -102,6 +105,7 @@
                     <connections>
                         <outlet property="cityLabel" destination="CWP-r8-Jsy" id="wCK-yN-rbE"/>
                         <outlet property="conditionView" destination="7gy-of-FT6" id="U3e-8j-yvh"/>
+                        <outlet property="locationButton" destination="64j-Nc-lWG" id="s13-Ef-p9W"/>
                         <outlet property="searchField" destination="2eh-wL-W34" id="nmO-Qi-0nE"/>
                         <outlet property="temperatureView" destination="kFM-we-gDV" id="5dN-aw-FS6"/>
                     </connections>

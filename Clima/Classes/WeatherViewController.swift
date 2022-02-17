@@ -9,18 +9,29 @@
 import UIKit
 import ClimaViews
 
-public class WeatherViewController: UIViewController {
+class WeatherViewController: UIViewController {
 
     @IBOutlet weak var conditionView: ConditionView!
     @IBOutlet weak var temperatureView: TemperatureView!
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var searchField: UITextField!
+    @IBOutlet weak var locationButton: LocationButton!
     
-    override public func viewDidLoad() {
+    @IBAction func searchButtonAction(_ sender: UIButton) {
+        textFieldReturnWasPressed(searchField)
+    }
+    
+    var searchFieldDelegate: SearchFieldDelegate?
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
-        if let climaImage = UIImage(named: ClimaType.imageName(for: 500)) {
-            conditionView.setImage(climaImage)
-        }
+        self.searchFieldDelegate = SearchFieldDelegate(delegate: self)
+        searchField.delegate = searchFieldDelegate
     }
 }
 
+extension WeatherViewController: TextFieldReturnHandling {
+    func textFieldReturnWasPressed(_ textField: UITextField) {
+        textField.endEditing(true)
+    }
+}

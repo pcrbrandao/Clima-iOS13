@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002645E127BEBCC70048E536 /* SearchFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002645E027BEBCC70048E536 /* SearchFieldDelegate.swift */; };
 		003A5A6927BB007D002114D0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 003A5A6827BB007D002114D0 /* .gitignore */; };
 		00C447A427BEB84C00D6846F /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C447A227BEB84C00D6846F /* WeatherModel.swift */; };
 		00C447A527BEB84C00D6846F /* WeatherBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C447A327BEB84C00D6846F /* WeatherBrain.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		00108C3B27BC3D9700F22F4A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		002645E027BEBCC70048E536 /* SearchFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldDelegate.swift; sourceTree = "<group>"; };
 		003A5A6827BB007D002114D0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		00C447A227BEB84C00D6846F /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		00C447A327BEB84C00D6846F /* WeatherBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherBrain.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				00C447A327BEB84C00D6846F /* WeatherBrain.swift */,
 				00C447A227BEB84C00D6846F /* WeatherModel.swift */,
 				00FBFFEB27B8516C007FCCC1 /* WeatherViewController.swift */,
+				002645E027BEBCC70048E536 /* SearchFieldDelegate.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				00C447A427BEB84C00D6846F /* WeatherModel.swift in Sources */,
 				00C447A527BEB84C00D6846F /* WeatherBrain.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
+				002645E127BEBCC70048E536 /* SearchFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

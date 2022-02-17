@@ -1,30 +1,39 @@
-public struct WeatherModel {
-    public struct Request {
-        public let cityName: String
-        public let units: String
+//
+//  WeatherModel.swift
+//  Clima
+//
+//  Created by Pedro Brandão on 16/02/22.
+//
+
+import Foundation
+
+struct WeatherModel {
+    struct Request {
+        let cityName: String
+        let units: String
         
-        public init(cityName: String, units: String) {
+        init(cityName: String, units: String) {
             self.cityName = cityName
             self.units = units
         }
     }
     
-    public struct Result {
-        public let temperature: String
+    struct Result {
+        let temperature: String
         
-        public init(temperature: String) {
+        init(temperature: String) {
             self.temperature = temperature
         }
     }
     
-    public struct View {
-        public let cityName: String
-        public let temperature: String
-        public let imageName: String
+    struct View {
+        let cityName: String
+        let temperature: String
+        let imageName: String
         
-        public init(cityName: String,
-                    temperature: String,
-                    imageName: String) {
+        init(cityName: String,
+             temperature: String,
+             imageName: String) {
             self.cityName = cityName
             self.temperature = temperature
             self.imageName = imageName
