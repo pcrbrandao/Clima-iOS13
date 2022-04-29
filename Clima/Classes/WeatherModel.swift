@@ -8,23 +8,6 @@
 import Foundation
 
 struct WeatherModel {
-    struct Request {
-        let cityName: String
-        let units: String
-        
-        init(cityName: String, units: String) {
-            self.cityName = cityName
-            self.units = units
-        }
-    }
-    
-    struct Result {
-        let temperature: String
-        
-        init(temperature: String) {
-            self.temperature = temperature
-        }
-    }
     
     struct View {
         let cityName: String

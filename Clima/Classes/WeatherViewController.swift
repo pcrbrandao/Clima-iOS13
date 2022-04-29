@@ -8,9 +8,12 @@
 
 import UIKit
 import ClimaViews
+import RxCocoa
+import RxSwift
 
 class WeatherViewController: UIViewController {
-
+    private let bag = DisposeBag()
+    
     @IBOutlet weak var conditionView: ConditionView!
     @IBOutlet weak var temperatureView: TemperatureView!
     @IBOutlet weak var cityLabel: UILabel!
@@ -18,20 +21,36 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var locationButton: LocationButton!
     
     @IBAction func searchButtonAction(_ sender: UIButton) {
-        textFieldReturnWasPressed(searchField)
+        searchField.resignFirstResponder()
+        searchField.clearText()
     }
-    
-    var searchFieldDelegate: SearchFieldDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.searchFieldDelegate = SearchFieldDelegate(delegate: self)
-        searchField.delegate = searchFieldDelegate
+        setupSearchField()
     }
 }
 
-extension WeatherViewController: TextFieldReturnHandling {
-    func textFieldReturnWasPressed(_ textField: UITextField) {
-        textField.endEditing(true)
+extension WeatherViewController {
+    private func setupSearchField() {
+        searchField.rx
+            .controlEvent(.editingDidEnd)
+            .subscribe(onNext: { [unowned self] in
+                self.searchField.placeholder = "You should type something"
+            }).disposed(by: bag)
+        
+        searchField.rx
+            .controlEvent(.editingDidEndOnExit)
+            .subscribe(onNext: {
+                self.searchButtonAction(UIButton())
+            })
+            .disposed(by: bag)
+    }
+}
+
+extension UITextField {
+    func clearText() {
+        self.text = ""
+        self.placeholder = "Search"
     }
 }
